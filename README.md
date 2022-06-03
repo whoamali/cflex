@@ -69,7 +69,7 @@ In this case, the children stick to each other! If you do not want this to happe
 </div>
 ```
 
-You can use ``off-[1-10]`` to distance the children
+You can use ``off-[1-9]`` to distance the children
 
 ```html
 <div class="cflex">
@@ -105,7 +105,7 @@ You can centered elements with ``centered`` class
 centered-[normal-xxxl]
 c-[normal-xxxl]-[1-10]
 cm-[normal-xxxl]-[1-10]
-off-[normal-xxxl]-[1-10]
+off-[normal-xxxl]-[1-9]
 ```
 
 ## Contributing
