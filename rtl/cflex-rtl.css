@@ -22,31 +22,72 @@
 
 @media only screen and (min-width: 425px) {
     .cflex.cflex-col-md {
-    flex-flow: column wrap;
+        flex-flow: column wrap;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .cflex.cflex-col-lg {
-    flex-flow: column wrap;
+        flex-flow: column wrap;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .cflex.cflex-col-xl {
-    flex-flow: column wrap;
+        flex-flow: column wrap;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .cflex.cflex-col-xxl {
-    flex-flow: column wrap;
+        flex-flow: column wrap;
     }
 }
 
 @media only screen and (min-width: 2560px) {
     .cflex.cflex-col-xxxl {
-    flex-flow: column wrap;
+        flex-flow: column wrap;
+    }
+}
+
+/*! Container deriction row */
+.cflex.cflex-row {
+    flex-flow: row wrap;
+}
+
+@media only screen and (min-width: 375px) {
+    .cflex.cflex-row-sm {
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .cflex.cflex-row-md {
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cflex.cflex-row-lg {
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cflex.cflex-row-xl {
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .cflex.cflex-row-xxl {
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .cflex.cflex-row-xxxl {
+        flex-flow: row wrap;
     }
 }
 
