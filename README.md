@@ -31,6 +31,14 @@ add ``cflex`` class to your container element to add CFlex styles styles
 </div>
 ```
 
+and you can change flex direction to column width ``cflex-col``
+
+```html
+<div class="cflex cflex-col">
+  ...
+</div>
+```
+
 now you can use cflex columns
 
 ```html
@@ -102,6 +110,7 @@ You can centered elements with ``centered`` class
         xxxl   > 2560
 ```
 ```
+cflex-col-[normal-xxxl]
 centered-[normal-xxxl]
 c-[normal-xxxl]-[1-10]
 cm-[normal-xxxl]-[1-10]
