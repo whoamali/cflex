@@ -45,6 +45,24 @@ and you can change flex direction to column and row with ``cflex-col`` and ``cfl
 </div>
 ```
 
+You can centered elements with ``centered`` class
+```html
+<div class="cflex centered">
+  <div class="cm-1"></div>
+  <div class="cm-5"></div>
+</div>
+```
+
+Add ``nowrap`` Make the container element nowrap
+```html
+<div class="cflex nowrap">
+  <div class="cm-1"></div>
+  <div class="cm-5"></div>
+  <div class="cm-10"></div>
+  <div class="cm-7"></div>
+</div>
+```
+
 now you can use cflex columns
 
 ```html
@@ -93,14 +111,6 @@ You can use ``off-[1-9]`` to distance the children
   <div class="cm-1 off-1"></div>
   <div class="cm-1"></div>
   <div class="cm-1 off-1"></div>
-</div>
-```
-
-You can centered elements with ``centered`` class
-```html
-<div class="cflex centered">
-  <div class="cm-1"></div>
-  <div class="cm-5"></div>
 </div>
 ```
 
