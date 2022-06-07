@@ -52,10 +52,33 @@ You can centered elements with ``centered`` class
   <div class="cm-5"></div>
 </div>
 ```
+OR ``start``
+```html
+<div class="cflex start">
+  <div class="cm-1"></div>
+  <div class="cm-5"></div>
+</div>
+```
+OR ``end``
+```html
+<div class="cflex end">
+  <div class="cm-1"></div>
+  <div class="cm-5"></div>
+</div>
+```
 
 Add ``cflex-nowrap`` Make the container element nowrap
 ```html
 <div class="cflex cflex-nowrap">
+  <div class="cm-1"></div>
+  <div class="cm-5"></div>
+  <div class="cm-10"></div>
+  <div class="cm-7"></div>
+</div>
+```
+and ``cflex-wrap`` to wrap container (default)
+```html
+<div class="cflex cflex-wrap">
   <div class="cm-1"></div>
   <div class="cm-5"></div>
   <div class="cm-10"></div>
@@ -128,6 +151,9 @@ You can use ``off-[1-9]`` to distance the children
 ```
 cflex-[col-row]-[normal-xxxl]
 centered-[normal-xxxl]
+start-[normal-xxxl]
+end-[normal-xxxl]
+cflex-nowrap-[normal-xxxl]
 c-[normal-xxxl]-[1-10]
 cm-[normal-xxxl]-[1-10]
 off-[normal-xxxl]-[1-9]
