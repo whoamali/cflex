@@ -53,9 +53,9 @@ You can centered elements with ``centered`` class
 </div>
 ```
 
-Add ``nowrap`` Make the container element nowrap
+Add ``cflex-nowrap`` Make the container element nowrap
 ```html
-<div class="cflex nowrap">
+<div class="cflex cflex-nowrap">
   <div class="cm-1"></div>
   <div class="cm-5"></div>
   <div class="cm-10"></div>
